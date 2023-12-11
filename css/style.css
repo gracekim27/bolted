@@ -75,7 +75,7 @@ header .navbar {
 
 .navbar-brand img {
     height: auto; /* Adjust the size as needed */
-    width: 20rem; /* This will keep the aspect ratio intact */
+    width: 200px; /* This will keep the aspect ratio intact */
 }
 
 .navbar-brand {
@@ -85,7 +85,7 @@ header .navbar {
     font-weight: 700;
     line-height: 1em;
 	letter-spacing: -1px;
-    margin-top: 0px;
+    margin-top: 10px;
     padding: 0 0 0 15px;
 }
 .navbar-default .navbar-brand{
