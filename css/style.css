@@ -73,18 +73,23 @@ header .navbar {
     border: none;
 }
 
+.navbar-brand img {
+    height: auto; /* Adjust the size as needed */
+    width: 30vh; /* This will keep the aspect ratio intact */
+}
+
 .navbar-brand {
     color: #222;
 	text-transform: uppercase;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 1em;
 	letter-spacing: -1px;
-    margin-top: 13px;
+    margin-top: 10px;
     padding: 0 0 0 15px;
 }
 .navbar-default .navbar-brand{
-color: #61B331;
+color: #3D00D4;
 }
 
 header .navbar-collapse  ul.navbar-nav {
@@ -252,7 +257,7 @@ header ul.nav li ul li a {
 
 .navbar .nav a:hover {
 	background:none;
-	color: #14A085 !important;
+	color: #3D00D4 !important;
 }
 
 .navbar .nav > .active > a,.navbar .nav > .active > a:hover {
@@ -292,7 +297,7 @@ header ul.nav li ul li ul {
   content:none;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-color: #14A085;
+color: #3D00D4;
 }
 
 
@@ -361,7 +366,7 @@ border: #D867B2 1px solid;
 background: #D867B2;
 }
 .c3{
-border: #61B331 1px solid;
+border: #3D00D4 1px solid;
 background: #4BC567;
 }
 .c4{
@@ -405,7 +410,7 @@ padding: 15px 0 0 0;
 margin: 0 0 0 0;
 background: #ffffff;
 text-align: center;
-color: #26AFF0;
+color: #3D00D4;
 display: inline-table;
 width: 70px;
 height: 70px;
@@ -414,7 +419,7 @@ height: 70px;
 -webkit-border-radius: 50%;
 border-radius: 0;
 font-size: 42px; 
-border: 1px solid #26AFF0;
+border: 1px solid #3D00D4;
 display: none;}
 
 .testi-icon-area .carousel-inner { 
@@ -573,13 +578,13 @@ section.callaction {
 ==================================== */
 
 #inner-headline{
-	background: #14A085;
+	background: #1d0068;
 	position:relative;
 	margin:0;
 	padding:0;
 	color:#fefefe;
 	/* margin: 15px; */
-	border-top: 10px solid #11967C;
+	border-top: 10px solid #1d0068;
 }
 
 
@@ -836,8 +841,10 @@ ul.portfolio-categ li a{
 	color: #14A085;
 }
 ul.portfolio-categ li.active{
-border: 1px solid #D7D8D6;
-background-color: #EAEAEA;
+
+border: 1px solid #D7D8D6;
+
+background-color: #EAEAEA;
 }
 ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.portfolio-categ li a:focus,ul.portfolio-categ li a:active {
 	text-decoration:none;
@@ -1002,7 +1009,7 @@ ul.link-list li{
 	list-style:none;
 }
 footer{
-background: #14A085;
+background: #1d0068;
 }
 footer ul.link-list li a{
 	color: #FFFFFF;
@@ -1357,7 +1364,7 @@ ul.social-network li {
 	padding:0;
 	padding-top:30px;
 	margin:20px 0 0 0;
-	background: #14A085;
+	background: #3D00D4;
 }
 
 #sub-footer p{
@@ -1567,7 +1574,7 @@ article img.pull-right, article .align-right{
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover {
 background: none;
 font-weight: 700;
-color: #26AFF0;
+color: #3D00D4;
 }
 	header .navbar-nav > li {
 padding-bottom: 0px;
